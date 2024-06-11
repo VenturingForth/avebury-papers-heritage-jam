@@ -79,6 +79,7 @@ ObjectSettings {
   ObjectStates {
     key: 9804687796431125332
     value {
+      IsHidden: true
     }
   }
   ObjectStates {
@@ -138,4 +139,4 @@ ObjectSettings {
     }
   }
 }
-LastSavedScene: "Prologue"
+LastSavedScene: "Main"

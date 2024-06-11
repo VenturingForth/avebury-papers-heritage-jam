@@ -44,15 +44,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11007706812073181249
-  Name: "Cabin Italic"
-  PlatformAssetType: 28
-  PrimaryAsset {
-    AssetType: "FontAssetRef"
-    AssetId: "CabinItalic_ref"
-  }
-}
-Assets {
   Id: 7887238662729938253
   Name: "Sky Dome"
   PlatformAssetType: 6
@@ -77,5 +68,14 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_fan_cas_floor_001_8m"
+  }
+}
+Assets {
+  Id: 2765658230467673959
+  Name: "Craftsman Roof 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_roof_003_ref"
   }
 }

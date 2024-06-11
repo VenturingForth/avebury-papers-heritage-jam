@@ -18,7 +18,6 @@ Objects {
   ChildIds: 16813558807825262224
   ChildIds: 10005074784157121906
   ChildIds: 18070699542963465335
-  ChildIds: 9804687796431125332
   ChildIds: 7079406782670262327
   UnregisteredParameters {
   }
@@ -68,11 +67,22 @@ Objects {
   ChildIds: 1052085848587998095
   ChildIds: 3314419020167236707
   ChildIds: 7786070011640017277
+  ChildIds: 6138790229148807198
   ChildIds: 10689962533498415237
   ChildIds: 6554753222148097069
   ChildIds: 8168880525060196874
   ChildIds: 10592822940384249297
   ChildIds: 1368615439003507379
+  ChildIds: 17899113416219129739
+  ChildIds: 8523097185845828709
+  ChildIds: 15139299965382456251
+  ChildIds: 6164509590674178267
+  ChildIds: 6051507630266414825
+  ChildIds: 6929022219441006643
+  ChildIds: 3907377272518968034
+  ChildIds: 9233069865164760299
+  ChildIds: 2571879351656348454
+  ChildIds: 2268254310320579703
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -92,6 +102,654 @@ Objects {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 2268254310320579703
+  Name: "Craftsman Roof 03"
+  Transform {
+    Location {
+      X: 7670
+      Y: -9110
+      Z: 600
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 4
+      Y: 2.05287147
+      Z: 2.5
+    }
+  }
+  ParentId: 7079406782670262327
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2765658230467673959
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 2571879351656348454
+  Name: "Craftsman Roof 03"
+  Transform {
+    Location {
+      X: 9310
+      Y: -5940
+      Z: 600
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 4
+      Y: 2.05287147
+      Z: 2.5
+    }
+  }
+  ParentId: 7079406782670262327
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2765658230467673959
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9233069865164760299
+  Name: "Area Light"
+  Transform {
+    Location {
+      X: 8470
+      Y: -9050
+      Z: 530
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7079406782670262327
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Light {
+    Intensity: 50
+    Color {
+      R: 1
+      G: 0.3
+      B: 0.95364213
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 1000
+        AreaLight {
+          BarnDoorAngle: 50
+          BarnDoorLength: 20
+          SourceWidth: 100
+          SourceHeight: 100
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3907377272518968034
+  Name: "Area Light"
+  Transform {
+    Location {
+      X: 8580
+      Y: -5960
+      Z: 310
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7079406782670262327
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Light {
+    Intensity: 50
+    Color {
+      R: 1
+      G: 0.3
+      B: 0.95364213
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 1000
+        AreaLight {
+          BarnDoorAngle: 50
+          BarnDoorLength: 20
+          SourceWidth: 100
+          SourceHeight: 100
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6929022219441006643
+  Name: "Fantasy Castle Wall 01 - Window 01 Template"
+  Transform {
+    Location {
+      X: 8480
+      Y: -5900
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7079406782670262327
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6734245941622095758
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Fantasy Castle Wall 01 - Window 01 Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 7680
+            Y: -5900
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8822668316052023235
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 10
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4997429027960780834
+    }
+  }
+}
+Objects {
+  Id: 6051507630266414825
+  Name: "Fantasy Castle Wall 01 - Window 01 Template"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7079406782670262327
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6734245941622095758
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Fantasy Castle Wall 01 - Window 01 Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 8480
+            Y: -5900
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8822668316052023235
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 10
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4997429027960780834
+    }
+  }
+}
+Objects {
+  Id: 6164509590674178267
+  Name: "Fantasy Castle Wall 01 - Window 01 Template"
+  Transform {
+    Location {
+      X: 9320
+      Y: -7480
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7079406782670262327
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6734245941622095758
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Fantasy Castle Wall 01 - Window 01 Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 9320
+            Y: -8280
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -90
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8822668316052023235
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 19.9999981
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14370244626126376696
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 419.999939
+            Y: -3.05175781e-05
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4997429027960780834
+    }
+  }
+}
+Objects {
+  Id: 15139299965382456251
+  Name: "Fantasy Castle Wall 01 - Window 01 Template"
+  Transform {
+    Location {
+      X: 9320
+      Y: -6680
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7079406782670262327
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6734245941622095758
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Fantasy Castle Wall 01 - Window 01 Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 9320
+            Y: -7480
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -90
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8822668316052023235
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 19.9999981
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14370244626126376696
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 419.999939
+            Y: -3.05175781e-05
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4997429027960780834
+    }
+  }
+}
+Objects {
+  Id: 8523097185845828709
+  Name: "Fantasy Castle Wall 01 - Window 01 Template"
+  Transform {
+    Location {
+      X: 9320
+      Y: -5880
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7079406782670262327
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6734245941622095758
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Fantasy Castle Wall 01 - Window 01 Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 9320
+            Y: -6680
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -90
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8822668316052023235
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 19.9999981
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4997429027960780834
+    }
+  }
+}
+Objects {
+  Id: 17899113416219129739
+  Name: "Fantasy Castle Wall 01 - Window 01 Template"
+  Transform {
+    Location {
+      X: 7690
+      Y: -6720
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7079406782670262327
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6734245941622095758
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Fantasy Castle Wall 01 - Window 01 Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 9320
+            Y: -5880
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -90
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8822668316052023235
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 19.9999981
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4997429027960780834
+    }
+  }
 }
 Objects {
   Id: 1368615439003507379
@@ -395,6 +1053,61 @@ Objects {
   }
 }
 Objects {
+  Id: 6138790229148807198
+  Name: "Arch Fancy Peaked 2m"
+  Transform {
+    Location {
+      X: 8490
+      Y: -5900
+      Z: 600
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1
+      Y: 5.5
+      Z: 4.00000048
+    }
+  }
+  ParentId: 7079406782670262327
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16787969650708476092
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
   Id: 7786070011640017277
   Name: "Arch Fancy Peaked 2m"
   Transform {
@@ -455,7 +1168,7 @@ Objects {
   Transform {
     Location {
       X: 9310
-      Y: -9150
+      Y: -9140
     }
     Rotation {
     }
@@ -777,14 +1490,14 @@ Objects {
   Transform {
     Location {
       X: 7690
-      Y: -6700
+      Y: -5760
     }
     Rotation {
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 3.99999857
+      Y: 2
+      Z: 2.5
     }
   }
   ParentId: 7079406782670262327
@@ -1189,236 +1902,6 @@ Objects {
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 9804687796431125332
-  Name: "Client Context"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  ChildIds: 17406867911366736163
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  NetworkContext {
-    IsAllowedForPC: true
-    IsAllowedForMobile: true
-    IsAllowedForLowMemoryMobile: true
-    PCMinDetailLevel {
-      Value: "mc:edetaillevel:low"
-    }
-    PCMaxDetailLevel {
-      Value: "mc:edetaillevel:ultra"
-    }
-    MobileMinDetailLevel {
-      Value: "mc:edetaillevel:low"
-    }
-    MobileMaxDetailLevel {
-      Value: "mc:edetaillevel:ultra"
-    }
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 17406867911366736163
-  Name: "UI Container"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9804687796431125332
-  ChildIds: 14160105693293894694
-  ChildIds: 5268537551546757779
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Control {
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Canvas {
-      ContentType {
-        Value: "mc:ecanvascontenttype:dynamic"
-      }
-      Opacity: 1
-      IsHUD: true
-      CanvasWorldSize {
-        X: 1024
-        Y: 1024
-      }
-      RedrawTime: 30
-      UseSafeZoneAdjustment: true
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-    }
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 5268537551546757779
-  Name: "WelcomeMessage"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17406867911366736163
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Control {
-    Width: 1595
-    Height: 195
-    UIX: 345
-    UIY: 645
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Text {
-      Label: "Welcome, seeker, to Avebury. These ancient stones have witnessed countless tales. Today, you will uncover the voices lost to time. Let the echoes of the past guide you."
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      Size: 40
-      Justification {
-        Value: "mc:etextjustify:left"
-      }
-      AutoWrapText: true
-      Font {
-        Id: 11007706812073181249
-      }
-      VerticalJustification {
-        Value: "mc:everticaljustification:top"
-      }
-      ShadowColor {
-        A: 1
-      }
-      ShadowOffset {
-      }
-      OutlineColor {
-        A: 1
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-    }
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 14160105693293894694
-  Name: "MessageTimeout"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17406867911366736163
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Script {
-    ScriptAsset {
-      Id: 16219671015604343722
-    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -2400,11 +2883,11 @@ Objects {
   Transform {
     Location {
       X: 11800
-      Y: -5750
-      Z: 550
+      Y: -6660
+      Z: 990
     }
     Rotation {
-      Pitch: -61.0318336
+      Pitch: -61.0318298
       Yaw: 8.37815189
       Roll: 174.981247
     }
