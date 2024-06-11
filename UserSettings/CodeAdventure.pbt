@@ -52,6 +52,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 5268537551546757779
+    value {
+    }
+  }
+  ObjectStates {
     key: 6097770030836029440
     value {
     }
@@ -68,6 +73,11 @@ ObjectSettings {
   }
   ObjectStates {
     key: 9069108589398955373
+    value {
+    }
+  }
+  ObjectStates {
+    key: 9804687796431125332
     value {
     }
   }
@@ -97,6 +107,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 14160105693293894694
+    value {
+    }
+  }
+  ObjectStates {
     key: 14956864293782643228
     value {
     }
@@ -112,9 +127,15 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 17406867911366736163
+    value {
+      IsHidden: true
+    }
+  }
+  ObjectStates {
     key: 18017965736996113346
     value {
     }
   }
 }
-LastSavedScene: "Main"
+LastSavedScene: "Prologue"
