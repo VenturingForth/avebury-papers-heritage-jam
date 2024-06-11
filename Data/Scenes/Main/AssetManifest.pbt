@@ -62,6 +62,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4775889894507101480
+  Name: "Glass 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_basic_glass_refrac_001"
+  }
+}
+Assets {
   Id: 2873598925796447064
   Name: "Fantasy Castle Floor 01 - 8m"
   PlatformAssetType: 1
@@ -77,5 +86,14 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_roof_003_ref"
+  }
+}
+Assets {
+  Id: 2632822784950723246
+  Name: "Plane Circle - One Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_plane_circle_001"
   }
 }

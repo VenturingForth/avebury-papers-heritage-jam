@@ -19,6 +19,7 @@ Objects {
   ChildIds: 10005074784157121906
   ChildIds: 18070699542963465335
   ChildIds: 7079406782670262327
+  ChildIds: 15466569263157491437
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -31,6 +32,199 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15466569263157491437
+  Name: "Portal"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 4190672123473527225
+  ChildIds: 1178262802932336013
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 1178262802932336013
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: 11540
+      Y: -10070
+      Z: 178.221039
+    }
+    Rotation {
+      Pitch: 89.2168961
+      Yaw: -7.58966064
+    }
+    Scale {
+      X: 3.52842569
+      Y: 20.8014393
+      Z: 0.999988735
+    }
+  }
+  ParentId: 15466569263157491437
+  ChildIds: 9879640923148572104
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+    InteractionTemplate {
+      Id: 841534158063459245
+    }
+    BreadcrumbTemplate {
+      Id: 841534158063459245
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9879640923148572104
+  Name: "PortalToEntrance"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: 4.26886629e-07
+      Roll: 1.40872644e-05
+    }
+    Scale {
+      X: 0.999999821
+      Y: 0.0480736606
+      Z: 1.00001037
+    }
+  }
+  ParentId: 1178262802932336013
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 2856268047325516114
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 4190672123473527225
+  Name: "Plane Circle - One Sided"
+  Transform {
+    Location {
+      X: 11540
+      Y: -10070
+      Z: 178.221039
+    }
+    Rotation {
+      Pitch: 89.2168961
+      Yaw: -7.58966303
+    }
+    Scale {
+      X: 6.90000629
+      Y: 23.5244427
+      Z: 0.999987781
+    }
+  }
+  ParentId: 15466569263157491437
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4775889894507101480
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2632822784950723246
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -57,9 +251,9 @@ Objects {
   ChildIds: 16663518700580236520
   ChildIds: 5417865351650831832
   ChildIds: 3696855188498663165
+  ChildIds: 7303004722650103118
   ChildIds: 10098729841991605427
   ChildIds: 2980008163732688615
-  ChildIds: 1297072550344222133
   ChildIds: 366847788472384258
   ChildIds: 16269550053038359642
   ChildIds: 12797055170089267604
@@ -1485,59 +1679,6 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1297072550344222133
-  Name: "Fantasy Castle Floor 01 - 8m"
-  Transform {
-    Location {
-      X: 7690
-      Y: -5760
-    }
-    Rotation {
-    }
-    Scale {
-      X: 3.99999857
-      Y: 2
-      Z: 2.5
-    }
-  }
-  ParentId: 7079406782670262327
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2873598925796447064
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:edistancerelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
   Id: 2980008163732688615
   Name: "Fantasy Castle Floor 01 - 8m"
   Transform {
@@ -1597,6 +1738,59 @@ Objects {
     Location {
       X: 7690
       Y: -8300
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7079406782670262327
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2873598925796447064
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7303004722650103118
+  Name: "Fantasy Castle Floor 01 - 8m"
+  Transform {
+    Location {
+      X: 7690
+      Y: -6700
     }
     Rotation {
     }

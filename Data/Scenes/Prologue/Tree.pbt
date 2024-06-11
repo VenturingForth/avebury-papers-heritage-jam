@@ -1739,6 +1739,7 @@ Objects {
   PlayerSpawnPoint {
     TeamInt: 1
     PlayerScaleMultiplier: 1
+    SpawnKey: "start"
     SpawnEffectsTemplate {
       Id: 841534158063459245
     }
